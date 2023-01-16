@@ -3,7 +3,7 @@ module jenkins-bridge-client
 go 1.17
 
 require (
-	github.com/dlclark/regexp2 v1.4.0
+	github.com/dlclark/regexp2 v1.8.0
 	github.com/go-resty/resty/v2 v2.7.0
 )
 
