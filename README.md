@@ -41,6 +41,7 @@ jenkins-bridge-client -token $BRIDGE_TOKEN -triggerBuild -jobName $jobname # 自
 ``` shell
 jenkins-bridge-client -token "$BRIDGE_TOKEN" -runid "$id" -printlog
 ```
+
 获取产物
 ``` shell
 jenkins-bridge-client -token "$BRIDGE_TOKEN" -runid "$id" -downloadArtifacts
