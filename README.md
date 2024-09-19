@@ -40,6 +40,7 @@ jenkins-bridge-client -token $BRIDGE_TOKEN -triggerBuild -jobName $jobname # 自
 打印日志:
 ``` shell
 jenkins-bridge-client -token "$BRIDGE_TOKEN" -runid "$id" -printlog
+
 ```
 获取产物
 ``` shell
